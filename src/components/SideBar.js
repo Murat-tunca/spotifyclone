@@ -1,10 +1,13 @@
 import React from "react";
 import logo from "img/logo.svg";
 import Menu from "components/SideBar/Menu";
-import { Icon } from "Icon.js";
+import { Icon } from "Icon";
+import Playlist from "components/SideBar/Playlist";
+import Downloadapp from "./SideBar/Downloadapp";
+
 const SideBar = () => {
   return (
-    <aside className="mt-6 w-60 flex flex-col  ">
+    <aside className="mt-6 w-60 flex flex-col bg-black ">
       <a href="#" className="mb-7 px-6 ">
         <img src={logo} alt="" className="h-10  " />
       </a>
@@ -36,6 +39,8 @@ const SideBar = () => {
           </li>
         </ul>
       </nav>
+      <Playlist />
+      <Downloadapp />
     </aside>
   );
 };
