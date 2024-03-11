@@ -7,13 +7,11 @@ const Navigation = () => {
   const navigate = useNavigate();
 
   const goToPreviousPage = () => {
-    // Burada bir önceki sayfaya yönlendirme yapabilirsiniz
-    navigate("/previous-route");
+    navigate("/search");
   };
 
   const goToNextPage = () => {
-    // Burada bir sonraki sayfaya yönlendirme yapabilirsiniz
-    navigate("/next-route");
+    navigate("/collection");
   };
 
   return (
