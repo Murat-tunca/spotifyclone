@@ -7,7 +7,7 @@ import Downloadapp from "./SideBar/Downloadapp";
 
 const SideBar = () => {
   return (
-    <aside className="mt-6 w-60 flex flex-col bg-black ">
+    <aside className="mt-6 w-60 flex flex-shrink-0 flex-col bg-black ">
       <a href="#" className="mb-7 px-6 ">
         <img src={logo} alt="" className="h-10  " />
       </a>
